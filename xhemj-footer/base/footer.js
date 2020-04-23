@@ -24,3 +24,4 @@ document.write("<strong>\"这只是Xhemj的网站而已，也没有什么别的�
 document.write("<div id=\"cc-myssl-id\">");
 document.write("<a href=\"https:\/\/myssl.com\/xhemj.gitee.io?from=mysslid\" target=\"_blank\"><img src=\"https:\/\/static.myssl.com\/res\/images\/myssl-id3.png\" alt=\"\" style=\"max-height:50px;display:block;margin:0 auto\"><\/a>");
 document.write("<\/div>");
+
