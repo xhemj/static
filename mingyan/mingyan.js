@@ -4,6 +4,7 @@
 		©2020 Xhemj
 */
 //当前版本更新时间：2020.04.27
+//==============================================
 var bulletContentArr = [
 //====老王名言====
 '你是屁股吗？', 
@@ -71,3 +72,28 @@ var bulletContentArr = [
 'LMPW',
 '骚骚恪',
 ''];
+//==============================================
+bulletContainer.bullet({
+	avatar: 'https://static.oschina.net/new-osc/img/portrait.gif',
+	content: content,
+	url: '',
+	bgColor: bgColor,
+});
+bulletContainer.bullet({
+	avatar: 'https://static.oschina.net/new-osc/img/portrait.gif',
+	content: content,
+	url: '',
+	bgColor: bgColor,
+});
+bulletContainer.bullet({
+	avatar: 'https://static.oschina.net/new-osc/img/portrait.gif',
+	content: content,
+	url: '',
+	bgColor: bgColor,
+});
+bulletContainer.bullet({
+	avatar: 'https://static.oschina.net/new-osc/img/portrait.gif',
+	content: content,
+	url: '',
+	bgColor: bgColor,
+});
