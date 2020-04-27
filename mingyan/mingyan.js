@@ -73,27 +73,3 @@ var bulletContentArr = [
 '骚骚恪',
 ''];
 //==============================================
-bulletContainer.bullet({
-	avatar: 'https://static.oschina.net/new-osc/img/portrait.gif',
-	content: content,
-	url: '',
-	bgColor: bgColor,
-});
-bulletContainer.bullet({
-	avatar: 'https://static.oschina.net/new-osc/img/portrait.gif',
-	content: content,
-	url: '',
-	bgColor: bgColor,
-});
-bulletContainer.bullet({
-	avatar: 'https://static.oschina.net/new-osc/img/portrait.gif',
-	content: content,
-	url: '',
-	bgColor: bgColor,
-});
-bulletContainer.bullet({
-	avatar: 'https://static.oschina.net/new-osc/img/portrait.gif',
-	content: content,
-	url: '',
-	bgColor: bgColor,
-});
