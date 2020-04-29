@@ -24,7 +24,7 @@ if(cdnuse == "2"){
 <script src="https://cdn.jsdelivr.net/gh/xhemj/xhemj.github.io@master/backup/js/docsify-pagination.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 }
-if(cdnuse = "3"){
+if(cdnuse == "3"){
 //使用Jsdelivr压缩合并功能
 <script src="https://cdn.jsdelivr.net/combine/npm/docsify/lib/docsify.min.js,npm/docsify/lib/plugins/search.min.js,npm/docsify/lib/plugins/zoom-image.min.js,npm/docsify-copy-code,npm/docsify/lib/plugins/emoji.min.js,gh/xhemj/xhemj.github.io@master/backup/js/docsify-pagination.min.js,gh/xhemj/xhemj.github.io@master/backup/js/docsify-footer-enh.min.js,gh/xhemj/xhemj.github.io@master/backup/js/docsify-remote-markdown.min.js,npm/docsify/lib/plugins/external-script.min.js,gh/827652549/docsify-count@master/dist/countable.min.js">
 }
