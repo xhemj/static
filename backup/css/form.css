@@ -114,7 +114,7 @@ Form
   display: block;
   width: 16px;
   height: 16px;
-  background: url("../img/cd-icon-arrow.svg") no-repeat center center;
+  background: url("https://www.17sucai.com/preview/1/2017-01-25/ContactForm/img/cd-icon-arrow.svg") no-repeat center center;
   pointer-events: none;
 }
 .cd-form select {
@@ -195,11 +195,11 @@ Form
 }
 .cd-form input[type="radio"] + label::after {
   /* custom image for radio button */
-  background-image: url("../img/cd-icon-radio.svg");
+  background-image: url("https://www.17sucai.com/preview/1/2017-01-25/ContactForm/img/cd-icon-radio.svg");
 }
 .cd-form input[type="checkbox"] + label::after {
   /* custom image for checkbox */
-  background-image: url("../img/cd-icon-check.svg");
+  background-image: url("https://www.17sucai.com/preview/1/2017-01-25/ContactForm/img/cd-icon-check.svg");
 }
 .cd-form input[type="radio"]:checked + label::after,
 .cd-form input[type="checkbox"]:checked + label::after {
@@ -251,7 +251,7 @@ Form
   transform: scale(0.9);
 }
 .cd-form [required] {
-  background: url("../img/cd-required.svg") no-repeat top right;
+  background: url("https://www.17sucai.com/preview/1/2017-01-25/ContactForm/img/cd-required.svg") no-repeat top right;
 }
 .cd-form .error-message p {
   background: #e94b35;
@@ -328,7 +328,7 @@ Custom icons
   padding-left: 54px !important;
 }
 .cd-form .user {
-  background: url("../img/cd-icon-user.svg") no-repeat 16px center;
+  background: url("https://www.17sucai.com/preview/1/2017-01-25/ContactForm/img/cd-icon-user.svg") no-repeat 16px center;
 }
 .cd-form [required].user {
   background: url("https://www.17sucai.com/preview/1/2017-01-25/ContactForm/img/cd-icon-user.svg") no-repeat 16px center, url("https://www.17sucai.com/preview/1/2017-01-25/ContactForm/img/cd-required.svg") no-repeat top right;
