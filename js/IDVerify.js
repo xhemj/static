@@ -53,18 +53,18 @@ function IDVerify(number) {
 		var code = 2
 	};
 	if (number.length == 18){
-	if (number.slice(17,18).toUpperCase() == code) {
-		return "true";
-	}else {
-		return "false";
-	};
+		if (number.slice(17,18).toUpperCase() == code) {
+			return "true";
+		}else {
+			return "false";
+		};
 	}
 	if (number.length == 17){
-	return code;
+		return code;
 	}
 	if (number.length != 17) {
-	if (number.length != 18) {
-		console.error(name+":"+"身份证格式或位数不符合规定。ID card format or digits do not meet the requirements.");
-	}
+		if (number.length != 18) {
+			console.error(name+":"+"身份证格式或位数不符合规定。ID card format or digits do not meet the requirements.");
+		}
 	}
 };
