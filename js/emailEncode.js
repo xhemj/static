@@ -1,7 +1,7 @@
 function emailEncode() {
     function rdn(minNum, maxNum) { switch (arguments.length) { case 1: return parseInt(Math.random() * minNum + 1, 10); break; case 2: return parseInt(Math.random() * (maxNum - minNum + 1) + minNum, 10); break; default: return 0; break; } };
-    var tag = ".email"
-    var email = $(tag).attr("mail").replace("-", "@")
+    var tag = ".email";
+    var email = $(tag).attr("mail").replace("-", "@");
     var letter = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@=-*/.~#$%^&*()_+|{}[]".split("");
     var mailAdress = email.split("");
     function rdLetterAdd(rdLetter) { return "<span style=\"display:none;\">" + rdLetter + "<\/span>" };
@@ -11,6 +11,7 @@ function emailEncode() {
     $(tag).attr("href", "mailto:" + email);
 }
 /*
+xhemj 2020 08 16
 <a href="#" class="email" mail="xhemj2680-163.com">[@]</a>
 <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
 <script>
